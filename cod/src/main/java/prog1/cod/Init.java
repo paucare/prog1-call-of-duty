@@ -19,7 +19,7 @@ public class Init {
 		
 		switch(eleccion) {
 		case 1:
-			System.out.println("Este es tun inventario");
+			System.out.println("Este es tu inventario");
 		
 		break;
 		case 2:
