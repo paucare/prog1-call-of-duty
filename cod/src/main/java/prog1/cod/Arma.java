@@ -2,28 +2,22 @@ package prog1.cod;
 
 public class Arma extends Inventario{
 	
-	private String nombre;
 	private int municion;
 	private int peso;
 	
 	
-	public Arma(int id, String nombre, int municion, int peso) {
-		super(id);
-		this.nombre = nombre;
+	public Arma(String nombre, int municion, int peso) {
+		super(nombre);
 		this.municion = municion;
 		this.peso = peso;
 	}
 
 
-	public String getNombre() {
-		return nombre;
+	public Arma(String nombre, int peso) {
+		super(nombre);
+		this.peso=peso;
+		
 	}
-
-
-	public void setNombre(String nombre) {
-		this.nombre = nombre;
-	}
-
 
 	public int getMunicion() {
 		return municion;
