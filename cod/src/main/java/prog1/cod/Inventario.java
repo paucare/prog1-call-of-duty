@@ -8,6 +8,12 @@ public class Inventario {
 	private int espaciosMochila;
 	private String nombre;
 	
+	public Inventario(int id) {
+		this.id = cont_id++  ;
+	
+		
+	}
+
 	public Inventario(String nombre) {
 		this.id = cont_id++  ;
 		this.espaciosMochila = 5;
